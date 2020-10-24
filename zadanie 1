@@ -30,7 +30,7 @@ namespace Rextester
             }
             int yearnow = 2020;
             int year = yearnow - int.Parse(date);
-            Console.WriteLine("Czesc " + name + " " + lastname + " W tym roku masz " + year + " lat. A twoj nr telefonu to");
+            Console.WriteLine("Czesc " + name + " " + lastname + " W tym roku masz " + year + " lat. A twoj nr telefonu to" + phonenumber);
         }
     }
 }
